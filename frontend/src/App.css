@@ -1,0 +1,37 @@
+/* Add a background image */
+body {
+    background: url("/public/plant.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Create a dark overlay to dim the background */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dimming effect */
+    z-index: -1;
+  }
+  
+  /* Adjust the layout to accommodate the fixed header */
+  .app-container {
+    padding-top: 100px; /* Prevents content from overlapping with fixed header */
+  }
+  
+  /* Style for the main form container */
+  .form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  

@@ -1,0 +1,5 @@
+# cd frontend
+# Set-ExecutionPolicy Unrestricted -Scope Process
+# npm install recharts
+# npm install react-chartjs-2 chart.js
+# npm start

@@ -1,0 +1,5 @@
+# cd  backend
+# pip install flask flask-cors pandas scikit-learn pickle-mixin
+# pip install requests
+# pip install xgboost
+# python app.py
