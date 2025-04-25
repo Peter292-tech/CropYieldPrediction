@@ -69,7 +69,7 @@ def get_yield_chart():
         if crop_encoded is None:
             return jsonify({"error": "Crop not found in mapping"}), 404
 
-        # Only filter by Crop, NOT season/state
+        # Filter by Crop
         crop_data = df[df["Crop"] == crop_encoded].sort_values(by="Crop_Year")
 
         if crop_data.empty:
