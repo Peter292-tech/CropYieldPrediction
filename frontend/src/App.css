@@ -21,7 +21,7 @@ body {
   
   /* Adjust the layout to accommodate the fixed header */
   .app-container {
-    padding-top: 100px; /* Prevents content from overlapping with fixed header */
+    padding-top: 100px; 
   }
   
   /* Style for the main form container */
